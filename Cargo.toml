@@ -4,3 +4,13 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+byteorder = "1.5.0"
+efivar = { git = "https://github.com/dest1n1s/efivar-rs", branch = "fix/delete-var-attribute" }
+log = "0.4.29"
+pretty_env_logger = "0.5.0"
+sudo = "0.6.0"
+system_shutdown = "4.1.0"
+uuid = "1.21.0"
+
+[build-dependencies]
+winres = "0.1.12"
