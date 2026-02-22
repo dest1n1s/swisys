@@ -2,6 +2,11 @@
 name = "swisys"
 version = "0.1.0"
 edition = "2024"
+description = "A simple tool to switch system on reboot."
+readme = "README.md"
+repository = "https://github.com/dest1n1s/swisys"
+license = "MIT"
+build = "build.rs"
 
 [dependencies]
 byteorder = "1.5.0"
