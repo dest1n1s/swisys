@@ -5,7 +5,7 @@ edition = "2024"
 
 [dependencies]
 byteorder = "1.5.0"
-efivar = { git = "https://github.com/dest1n1s/efivar-rs", branch = "fix/delete-var-attribute" }
+efivar = { version = "2.0.1", package = "efivar-fix"}
 log = "0.4.29"
 pretty_env_logger = "0.5.0"
 sudo = "0.6.0"

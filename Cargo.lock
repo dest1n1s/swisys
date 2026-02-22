@@ -213,9 +213,10 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "d0a5c400df2834b80a4c3327b3aad3a4c4cd4de0629063962b03235697506a28"
 
 [[package]]
-name = "efivar"
-version = "2.0.0"
-source = "git+https://github.com/dest1n1s/efivar-rs?branch=fix%2Fdelete-var-attribute#c6bb5d6b4e6d14ac9b69e38cc9287e611906e7ad"
+name = "efivar-fix"
+version = "2.0.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "5732cdd1c0019ac0247f5397dfb47864e41d004768db79cfb87d9b904d826453"
 dependencies = [
  "bitflags",
  "byteorder",
@@ -757,7 +758,7 @@ name = "swisys"
 version = "0.1.0"
 dependencies = [
  "byteorder",
- "efivar",
+ "efivar-fix",
  "log",
  "pretty_env_logger",
  "sudo",
